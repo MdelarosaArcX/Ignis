@@ -1,0 +1,51 @@
+{
+  "systemLoadMode": 2,
+
+  "cpuOnly": false,
+  "gpuOnly": false,
+
+  "cpuThreadsMax": "auto",
+
+  "workers": [
+    { "id": 1, "cores": [0, 1] },
+    { "id": 2, "cores": [2, 3] },
+    { "id": 3, "cores": [4, 5] },
+    { "id": 4, "cores": [6, 7] }
+  ],
+
+  "cpuPinning": {
+    "enabled": true
+  },
+
+  "limits": {
+    "mode1": {
+      "description": "Only 1 job at a time (CPU+GPU combined)",
+      "maxConcurrent": 1,
+      "allowCPU": true,
+      "allowGPU": true
+    },
+    "mode2": {
+      "description": "GPU jobs = GPU count, CPU jobs = all CPU slots",
+      "maxCPUJobs": "auto",
+      "maxGPUJobs": "auto",
+      "allowCPU": true,
+      "allowGPU": true
+    },
+    "mode3": {
+      "description": "GPU only mode — do not allow CPU processing",
+      "allowCPU": false,
+      "allowGPU": true
+    },
+    "mode4": {
+      "description": "CPU only mode — disable GPU usage completely",
+      "allowCPU": true,
+      "allowGPU": false
+    },
+    "mode5": {
+      "description": "CPU only with restricted core usage",
+      "allowCPU": true,
+      "allowGPU": false,
+      "usePinnedCores": true
+    }
+  }
+}

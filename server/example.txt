@@ -1,0 +1,39 @@
+General
+Complete name                            : C:\Users\asus tuf a15\Documents\Project\Work\ArcX\Project\Ignis-Transcode\server\uploads\f3023c10a59d0e6eff84792945ac53f4
+Format                                   : MPEG-TS (MPEG-2 Transport Stream)
+File size                                : 1.53 GB
+Duration                                 : 23 min 15.0304000000001 s
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 9424.10 kbps
+
+Video
+Format                                   : h264
+Format/Info                              : H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+Format profile                           : High
+Format settings, CABAC                   : Yes
+Width                                    : 1920
+Height                                   : 1080
+Frame rate                               : 25/1
+Scan order                               : Top Field First
+Bits/(Pixel*Frame)                       : 0.1818
+
+Audio #1
+Format                                   : aac
+Format/Info                              : AAC (Advanced Audio Coding)
+Duration                                 : 23 min 15.0304000000001 s
+Compression mode                         : Lossy
+Channel(s)                               : 2
+Sampling rate                            : 48000
+
+Text #1
+Format                                   : dvb_subtitle
+Language                                 : eng
+
+Text #2
+Format                                   : dvb_subtitle
+Language                                 : chi
+
+Text #3
+Format                                   : dvb_subtitle
+Language                                 : msa
+

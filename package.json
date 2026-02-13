@@ -1,0 +1,15 @@
+{
+  "name": "ignis-transcode",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run start\"",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "uuid": "^13.0.0"
+  }
+}
