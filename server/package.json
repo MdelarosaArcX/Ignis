@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Ignis Transcode backend",
-  "main": "server.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.ts"
   },
   "dependencies": {
     "chokidar": "^4.0.3",
