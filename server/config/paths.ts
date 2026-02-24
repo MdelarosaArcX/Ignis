@@ -11,7 +11,7 @@ const HOTFOLDER_DIR = path.join(ROOT, "hotfolder");
 
 // ✅ Load dynamic settings
 const SETTINGS_PATH = path.join(ROOT, "settings.json");
-let userSettings = {};
+let userSettings: any = {};
 try {
   if (fs.existsSync(SETTINGS_PATH)) {
     userSettings = JSON.parse(fs.readFileSync(SETTINGS_PATH, "utf-8"));
