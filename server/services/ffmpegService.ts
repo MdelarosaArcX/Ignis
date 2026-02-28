@@ -1,3 +1,4 @@
+// @ts-nocheck
 // ffmpegService.js (persistent queue + live priority + auto resume)
 const ffmpeg = require("fluent-ffmpeg");
 const ignisConfig = require("../config/ignisconfig.json");
